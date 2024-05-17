@@ -1,0 +1,45 @@
+.li {
+  width: 200px;
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 30px;
+}
+.similar-product-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.similar-product-title {
+  color: #12022f;
+  font-size: 16px;
+}
+.similar-product-brand {
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 14px;
+}
+.rate-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.similar-product-price {
+  color: #171f46;
+  font-weight: 500;
+  font-size: 14px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.star-img {
+  width: 12px;
+}
+@media screen and (max-width: 576px){
+  .li{
+    margin-top: 20px;
+  }
+}
